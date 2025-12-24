@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp Webhook Messages</title>
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+<h2>Incoming WhatsApp Messages</h2>
+<pre>
+<span th:each="m : ${messages}" th:text="${m}"></span>
+</pre>
+</body>
+</html>
